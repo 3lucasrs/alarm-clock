@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ALARME</title>
+  </head>
+  <body>
+    <div class="clock_display">
+      <div class="time_display">
+        <div class="time_window">
+          <div class="tw_top">
+            <h1 id="hour_display">00</h1>
+          </div>
+          <div class="tw_bottom">
+            <span>Horas</span>
+          </div>
+        </div>
+
+        <div class="time_window">
+          <div class="tw_top">
+            <h1 id="min_display">00</h1>
+          </div>
+          <div class="tw_bottom">
+            <span>Minutos</span>
+          </div>
+        </div>
+
+        <div class="time_window">
+          <div class="tw_top">
+            <h1 id="sec_display">00</h1>
+          </div>
+          <div class="tw_bottom">
+            <span>Segundos</span>
+          </div>
+        </div>
+      </div>
+      <div class="alarm">
+        <div class="title">Despertador</div>
+
+        <div class="mid">
+          <input type="number" name="hour" id="vhour" />
+          <label for="vhour">Hora(s)</label>
+          <input type="number" name="min" id="vmin" />
+          <label for="vmin">Minuto(s)</label>
+          <input type="number" name="sec" id="vsec" />
+          <label for="vsec">Segundo(s)</label>
+        </div>
+
+        <button class="alarmButton">Ajustar</button>
+      </div>
+
+      <div class="log_window">
+        <div class="title">Registros</div>
+        <div>
+          <ul id="log"></ul>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/3lucasrs"
+          ><i class="fa fa-github fa-2x" aria-hidden="true"></i
+        ></a>
+        <a href="https://br.linkedin.com/in/3lucasrs"
+          ><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
